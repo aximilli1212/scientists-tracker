@@ -6,12 +6,9 @@
     About Us
   {{/link-to}}
 </div>
-<div></div>
-{{!-- 
-{{#each this.model as |rental|}}
-  {{rental-listing rental=rental}}
-{{/each}} --}}
+<div>
 
+</div>
 
 
 <ListFilter
@@ -25,6 +22,3 @@ as |filteredResults|
   </ul>
 </ListFilter>
 {{outlet}}
-{{#each this.model as |rentalUnit|}}
-  <RentalListing @rental={{rentalUnit}} />
-{{/each}}
